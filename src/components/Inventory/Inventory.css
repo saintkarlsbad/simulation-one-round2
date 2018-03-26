@@ -1,0 +1,121 @@
+.inventory_parent {
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    min-width: 655px;
+    display: block;
+}
+
+.inventory_header {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d34735;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    min-width: 681px;
+}
+
+#inventory_logo_container {
+    background-color: #ab2a19;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#inventory_shelf_container {
+    background-color: #d34735;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    box-sizing: border-box;
+    font-size: 30px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#inventory_shelf_id {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.bin_id_inventory {
+    background-color: #ed6b5a;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+#inventory_id_text {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.inventory_child {
+    width: 100%;
+    box-sizing: border-box;
+    height: calc(100%-100px);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#item_text {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    position: relative;
+    left: -200px;
+    font-size: 30px;
+}
+
+#input_box {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ab2a19;
+    border-radius: 3px;
+    padding: 12px;
+    min-width: 500px;
+    width: auto;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.buttons_div {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory_buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #40f99b;
+    height: auto;
+    border: none;
+    width: 526px;
+    border-radius: 3px;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    text-rendering: auto;
+}
+

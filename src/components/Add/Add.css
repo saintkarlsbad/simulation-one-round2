@@ -1,0 +1,112 @@
+.add_parent {
+    width: 100%;
+    height: 100vh;
+    min-width: 826px;
+    min-height: 800px;
+    display: block;
+}
+
+.add_header {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ab2a19;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.add_logo_container {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.add_shelf_container {
+    background-color: #d34735;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    box-sizing: border-box;
+    font-size: 30px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.add_shelf_id {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.add_to_bin {
+    background-color: #ed6b5a;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.add_span {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.add_child {
+    width: 100%;
+    box-sizing: border-box;
+    height: calc(100%-100px);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_text {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    position: relative;
+    left: -200px;
+    font-size: 30px;
+}
+
+.input_box {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ab2a19;
+    border-radius: 3px;
+    padding: 12px;
+    min-width: 500px;
+    width: auto;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.add_inventory {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #40f99b;
+    height: auto;
+    font-size: 30px;
+    border: none;
+    width: 526px;
+    border-radius: 3px;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    text-rendering: auto;
+}
